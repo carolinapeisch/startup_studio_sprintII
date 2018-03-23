@@ -1687,7 +1687,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;text-align: center;
+		margin: 0 0 1em 0;text-align: center;
 
 	}
 
@@ -1729,6 +1729,7 @@
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
 		padding:.5em;
+		text-align: center;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2390,6 +2391,9 @@
 
 			}
 
+#selected_tab, #selected_tab::after {
+background: #fff !important}
+
 #tabs {
   overflow: hidden;
   width: 100%;
@@ -2422,6 +2426,7 @@
 #tabs a:focus::after {
   background: #fff;
 }
+
 
 #tabs a:focus {
   outline: 0;
